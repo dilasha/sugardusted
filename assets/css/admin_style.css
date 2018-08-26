@@ -1,0 +1,56 @@
+.collection a.collection-item {
+	display: block;
+	font-family: "Calibri";
+	letter-spacing: 0.05em;
+	-webkit-transition: 0.25s;
+	-moz-transition: 0.25s;
+	-o-transition: 0.25s;
+	-ms-transition: 0.25s;
+	transition: 0.25s;
+	color: #000000;
+}
+.collection a.collection-item:not(.active):hover {
+	background-color: #FFFFFF;
+	color: #ee6e73;
+}
+.admin-logo{
+	width: 100%;
+	padding: 1% 0% 1% 0%;
+	margin: auto;
+}
+.collection{
+	height: 100vh;
+	text-align: center;
+	border: 0px;
+	position: fixed;
+}
+.fa-black{
+	color: black!important;
+}
+.fa-white{
+	color: white!important;
+}
+nav{
+    padding: 0% 2% 0% 2%;
+}
+.admin-container{
+	width: 100%;
+    padding: 2% 0% 3% 5%;
+}
+.admin-title-container{
+	color: white;
+	letter-spacing: 0.05em;
+	font-family: "Calibri";
+	font-size: 1.2em;
+	text-align: center;
+	padding: 4px 3em 4px 0;
+}
+.btn {
+    background-color: #000000 !important;
+}
+.list-link{
+	color: #ee6e73;
+}
+.list-link:hover, .list-link:active, .list-link:focus{
+	color: black;
+}
